@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custome Styles*/
+
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+
+.a1{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    margin-right:25px;
+    text-decoration:none;
+    color:white;
+    filter:brightness(110%);
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    height:100%;
+}
+
+.header{
+    background-color:rgba(255, 153, 0, 0.781);
+    height:80px;
+    filter:brightness(110%);
+}
+
+.ol1{
+    list-style-type:decimal;
+} 
+.ol2{
+    list-style-type:disc;
+}
+.ol3{
+    list-style-type:decimal;
+}
+
+.ol4{
+    list-style-type:disc;
+}
+.ol5{
+    list-style-image:url("check.jpg");
+}
+
+.div1{
+    height:70vh;
+    background-color:rgb(41, 67, 128);
+    box-shadow:10px 10px 30px black;
+    padding:30px 40px;
+    color:white;
+    width:20%;
+    margin:30px 0px;
+    margin-right:20px;
+}
+
+li{
+    margin-top:10px;
+}
+
+.sec{
+    display:flex;
+    flex-wrap:wrap;
+}
+dt{margin:10px 0;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:20px;}
+
+dd{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:100;
+}
+
+footer{
+    margin-top:30px;
+    background-color:rgba(28, 20, 9, 0.815);
+    height:80px;
+    filter:brightness(110%);
+}
